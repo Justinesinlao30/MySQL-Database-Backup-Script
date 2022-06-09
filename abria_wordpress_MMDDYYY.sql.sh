@@ -57,7 +57,7 @@ chmod +x backup-mysql.sh
 git add -A
 
 # commit changes added to the git and add a message
-git commit -m "added abria_backupmysql.sh"
+git commit -m "added abria_wordpress_MMDDYYY.sql.sh"
 
 # upload the script to github
 git push origin main
