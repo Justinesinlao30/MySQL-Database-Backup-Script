@@ -1,13 +1,13 @@
 #!/bin/bash
 # adding backup mysql scripts
-wget https://raw.githubusercontent.com/clusterednetworks/backup-mysql/master/backup-mysql.sh
+echo "wget https://raw.githubusercontent.com/clusterednetworks/backup-mysql/master/backup-mysql.sh"
 
-# concatenation and edit the vim backup mysql file
+# concatenate and edit the vim backup mysql file
 vi backup-mysql.sh
 
-#----------------------------------------
-# OPTIONS
-#----------------------------------------
+----------------------------------------
+ OPTIONS
+----------------------------------------
 USER='justineabria'       # MySQL User
 PASSWORD='just30' # MySQL Password
 DAYS_TO_KEEP=5    # 0 to keep forever
